@@ -1,0 +1,70 @@
+
+body{
+    background: url(../img/fondo.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+h1 {
+    line-height: 55px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    background: rgb(32, 0, 175);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.main-content {
+    position: relative;
+    margin: 100px auto;
+    width: 370px;
+    height: 315px;
+    background: transparent;
+    border-radius: 3px;
+}
+
+.form {
+    width: 100%;
+}
+.field {
+    position: relative;
+    margin: 0 50px;
+}
+i {
+    font-size: 29px;
+    position: relative;
+    height: 34px;
+    width: 34px;
+    color: #f7f3eb;
+    background: hsla(34, 3%, 49%, 0.557);
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 36px;
+}
+button {
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    background: rgb(44, 0, 167);
+    margin-top: 40px;
+    margin-left: 120px;
+    cursor: pointer;
+    color: white;
+}
+button:hover{
+    background-color: rgb(31, 22, 22);
+    color: rgb(255, 255, 255);
+}
+input {
+    font-family: "Open Sans", Calibri, Arial, sans-serif;
+    font-size: 24px;
+    padding: 10px 15px 10px 55px;
+    position: relative;
+    width: 200px;
+    height: 24px;
+    border: none;
+    background: #f7f3eb;
+}
